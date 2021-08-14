@@ -21,6 +21,7 @@ def individual():
     """
         Crea un individual
     """
+ #Permite el uso de tildes
     return [random.choice(string.ascii_letters + " áéíóúÁÉÍÓÚ") for i in range(len(cadena))]
 
 
