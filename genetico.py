@@ -1,18 +1,21 @@
+#Quiz #2 IA
 #Elaborado por
 #Leiwis Contreras 1028020195 Grupo 1
 #Ibio Escobar Gomez 1038816379 Grupo 3
 #Luis Carmona Grupo 3
 
+
+#implementacion de librerias
 import random
 import string
 
-cadena = "Ingeniería informática, inteligencia artificial"  # Objetivo a alcanzar
-modelo=[] #para el calculo del mar¿terial genetico
+cadena = "Ingeniería informática, inteligencia artificial"  # cadena estipulada para el codigo del quiz#2
+modelo=[] #para el calculo del material genetico
 num = 10  # La cantidad de individuos que habra en la poblacion
 pressure = 3  # Cuantos individuos se seleccionan para reproduccion. Necesariamente mayor que 2
 mutation_chance = 0.2  # La probabilidad de que un individuo mute
 
-#Ciclo
+#Ciclo para la muestra del modelo a seguir
 for i in range(len(cadena)):
     modelo.append(cadena[i])
 print("\n\nModelo: %s\n" % (modelo)," \n")  # Mostrar el modelo, con un poco de espaciado
